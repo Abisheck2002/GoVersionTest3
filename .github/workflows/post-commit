@@ -2,5 +2,5 @@
 
 current_branch=$(git symbolic-ref --short HEAD)
 if [ "$current_branch" == "QA" ]; then
-    /GoVersionTest3/.github/workflows/create_qa_tag.sh
+    /home/abisheek/GoVersionTest3/.github/workflows/create_qa_tag.sh
 fi
