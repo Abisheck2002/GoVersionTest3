@@ -1,3 +1,3 @@
 # GoVersionTest3
 
-change 4
+change 3
