@@ -13,7 +13,7 @@ latest_version=$(echo "$latest_tag" | grep -oP '(?<=0\.0\.)\d+')
 next_version=$((latest_version + 1))
 
 # Create the new tag
-new_tag="V0.0.${next_version}_QA"
+new_tag="V.0.0.${next_version}_QA"
 git tag "$new_tag"
 
 # Push the new tag to remote repository
